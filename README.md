@@ -77,6 +77,7 @@ En este momento la aplicación aún no ha sido empujada al repositorio en esta p
 2. Abra la consola y ejecute:
 ```bash
 git remote add bluemix GIT URL
-git push -u bluemix
+git push -u bluemix --all --force
 ```
 Por ultimo ingrese el alias que creo anteriormente y la contraseña con la que creo la cuenta en bluemix.
+Regrese al DASHBOARD de Bluemix, seleccione la aplicación que acabo de crear y seleccione Open URL.
